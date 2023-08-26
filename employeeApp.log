@@ -1,0 +1,8 @@
+2022-03-08 01:12:58.899 ERROR 56839 --- [http-nio-9001-exec-3] c.s.m.controller.EmployeeController      : fatal error
+2022-03-08 01:12:58.900  INFO 56839 --- [http-nio-9001-exec-3] c.s.m.controller.EmployeeController      : getEmployedByIDHandler started ists execution with arguments: 507
+2022-03-08 01:12:58.904  WARN 56839 --- [http-nio-9001-exec-3] c.s.m.controller.EmployeeController      : Exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException is thrown in getEmployeeByIdHander
+2022-03-08 01:12:58.904  INFO 56839 --- [http-nio-9001-exec-3] c.s.m.controller.EmployeeController      : getEmployeeByIDHandler completed its execution
+2022-03-08 01:12:58.904  INFO 56839 --- [http-nio-9001-exec-3] c.s.m.controller.EmployeeController      : value returned by getEmployeeByIDHander: <404 NOT_FOUND Not Found,Employee Not Found,[]>
+2022-03-08 01:21:14.243  INFO 56839 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-08 01:21:14.250  INFO 56839 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2022-03-08 01:21:14.271  INFO 56839 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
